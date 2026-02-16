@@ -42,14 +42,8 @@ while true do
      uuid, isHidden,
       messageUtf8 = os.pullEvent("chat")
     if event then
-        if username == "ToyaXo" then
+        if username == "<Player>" then
             main(username, message, invToya)
-        end
-        if username == "mgkbend" then
-            main(username,message, invMgk)
-        end
-        if username == "_Alyaw" then
-            main(username, message, invAlya)
         end
     end
 end
